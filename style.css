@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:20px 0px ;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header li{
+    padding-right: 30px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+/* Home */
+.home, .about{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+}
+
+#home, #skill {
+    background-color: #92B4EC;
+}
+
+.hometitle{
+    display: flex;
+    flex-direction: column;
+}
+
+.hometitle h3{
+    font-size: 200%;
+}
+
+.hometitle h1{
+    font-size: 300%;
+}
+
+.hometitle h2{
+    font-size: 200%;
+}
+
+.hometitle p{
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+.home img{
+    width: 400px;
+    border-radius: 50%;
+}
+
+/* About */
+.about img{
+    width: 250px;
+}
+
+.abouttext{
+    padding: 100px;
+    text-align: center;
+}
+
+/* Skill */
+.skill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#skill h2{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+
+.cards {
+    width: 20%;
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 10%;
+}
+
+.cards h3{
+    padding: 30px 0px 20px;
+}
+
+.cards svg{
+    color: #92B4EC;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.account h3{
+    text-align: center;
+}
+
+.account ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.account li{
+    padding: 0px 20px;
+}
+
+.account a{
+    color: #759bd9;
+}
+
+.mail input{
+    margin: 10px;
+    padding: 20px 10px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.input {
+    border: 0;
+    background-color:rgb(209, 209, 209);
+}
+
+textarea {
+    margin-left: 10px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+.sending-button {
+    background-color: #92B4EC;
+    border: 0;
+    border-radius: 10px;
+}
+
+/* Footer */
+.sub-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(155, 155, 155);
+    padding: 50px 0px;
+    color: white;
+}
+
+.sub-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-service ul, .nav-footer ul{
+    list-style: none;
+}
+
+.footer-service li, .nav-footer li{
+    padding: 5px 0px;
+}
+
+.closed-footer{
+    text-align: center;
+    padding: 10px 0px;
+}
