@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -27,6 +29,18 @@ header a{
 
 section {
     padding: 50px 0px;
+}
+
+h1, h2, h3, h4, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.mytitle, .footertitle h3{
+    font-family: 'Pacifico', cursive;
+}
+
+.mytitle {
+    font-size: larger;
 }
 
 /* Home */
@@ -73,8 +87,15 @@ section {
     width: 250px;
 }
 
+.abouttext h3{
+    font-size: 300%;
+}
+
+.abouttext p, .abouttext h3{
+    padding: 20px;
+}
+
 .abouttext{
-    padding: 100px;
     text-align: center;
 }
 
@@ -118,6 +139,7 @@ section {
 #contact h2{
     text-align: center;
     padding-bottom: 40px;
+    font-size: 300%;
 }
 
 .account h3{
