@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) and (min-width: 240px){
+@media screen and (max-width: 480px) and (min-width: 240px) {
 
     nav {
         display: none;
@@ -8,13 +8,15 @@
         width: fit-content;
     }
 
-    .home, .about{
+    .home,
+    .about {
         flex-direction: column;
     }
 
-    .hometitle h2,h3 {
+    .hometitle h2,
+    h3 {
         font-size: 100%;
-    } 
+    }
 
     .hometitle h1 {
         font-size: 250%;
@@ -24,14 +26,14 @@
         display: none;
     }
 
-    .hometitle p{
+    .hometitle p {
         text-align: center;
         padding: 30px 0px;
     }
 
     /* about */
 
-    .about img{
+    .about img {
         width: 100%;
     }
 
@@ -61,7 +63,7 @@
         margin-left: 25%;
     }
 
-    .account{
+    .account {
         padding-bottom: 30px;
         margin-left: 70px;
     }
@@ -74,11 +76,11 @@
         margin: auto;
     }
 
-    .mail input{
+    .mail input {
         width: 120%;
     }
 
-    textarea{
+    textarea {
         width: 120%;
     }
 
@@ -96,4 +98,72 @@
     .nav-footer {
         padding-top: 30px;
     }
+
+    /* Start from farhan */
+    .hamburger {
+        cursor: pointer;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: black;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 69px;
+        width: 100%;
+        left: 0%;
+        background-color: rgb(252, 252, 252);
+    }   
+
+    .nav-menu ul {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        border-top:1px solid black;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .active{
+        display:block;
+    }
+    .deactive{
+        display:none;
+    }
+
+    .to-top{
+        position:fixed;
+        display:flex;
+        pointer-events: none;
+        justify-content: center;
+        align-items: center;
+        right:5%;
+        bottom:5%;
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        background-color:rgb(232, 232, 232);
+        box-shadow: 1px 1px 5px black;
+        opacity:0;
+    }
+    .to-top img{
+        width:16px;
+    }
+
+    .darkmode .nav-menu{
+        background-color:black;
+    }
+    .darkmode .nav-item{
+        border-top:1px solid #121b21;
+    }
+
+    .darkmode .bar{
+        background-color:white;
+    }
+    /* end from farhan */
 }
