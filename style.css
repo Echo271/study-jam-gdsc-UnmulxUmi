@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding:20px 0px ;
+    padding:30px 0px ;
 }
 
 nav ul{
@@ -28,6 +30,14 @@ header a{
 
 section {
     padding: 50px 0px;
+}
+
+h1, h2, h3, p, a{
+    font-family: 'Poppins', sans-serif;
+}
+
+.mytitle {
+    font-family: 'Pacifico', cursive;
 }
 
 /* Home */
@@ -75,8 +85,12 @@ section {
 }
 
 .abouttext{
-    padding: 100px;
     text-align: center;
+}
+
+.abouttext h3{
+    font-size: 300%;
+    padding-bottom: 30px;
 }
 
 /* Skill */
@@ -119,6 +133,7 @@ section {
 #contact h2{
     text-align: center;
     padding-bottom: 40px;
+    font-size: 300%;
 }
 
 .account h3{
@@ -231,3 +246,18 @@ textarea {
     background-color:#121b21;
 }
 /* end from farhan */
+
+.dark-mode-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.dark-mode-button:hover{
+    background-color: #92B4EC;
+    color: white;
+    border-color: white;
+}
